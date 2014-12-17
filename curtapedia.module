@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Curtapedia Core feature.
+ */
+
+include_once 'curtapedia.features.inc';
