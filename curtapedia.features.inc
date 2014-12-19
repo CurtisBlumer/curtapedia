@@ -18,21 +18,3 @@ function curtapedia_ctools_plugin_api($module = NULL, $api = NULL) {
     return array("version" => "1");
   }
 }
-
-/**
- * Implements hook_node_info().
- */
-function curtapedia_node_info() {
-  $items = array(
-    'page' => array(
-      'name' => t('Basic page'),
-      'base' => 'node_content',
-      'description' => t('A static, not often changing, page.'),
-      'has_title' => '1',
-      'title_label' => t('Page title'),
-      'help' => '',
-    ),
-  );
-  drupal_alter('node_info', $items);
-  return $items;
-}

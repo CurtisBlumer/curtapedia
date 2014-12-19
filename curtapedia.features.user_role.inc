@@ -17,20 +17,6 @@ function curtapedia_user_default_roles() {
     'uuid' => 'dd7e1909-c53c-4aed-88ac-33cebf0335aa',
   );
 
-  // Exported role: site contributor.
-  $roles['site contributor'] = array(
-    'name' => 'site contributor',
-    'weight' => 6,
-    'uuid' => '2c968094-4b42-4d44-b720-33d88aa719a8',
-  );
-
-  // Exported role: site editor.
-  $roles['site editor'] = array(
-    'name' => 'site editor',
-    'weight' => 8,
-    'uuid' => '8a759674-98c5-4a16-a6bc-695d8d52da05',
-  );
-
   // Exported role: unverified user.
   $roles['unverified user'] = array(
     'name' => 'unverified user',
